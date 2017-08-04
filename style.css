@@ -1,0 +1,343 @@
+
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    background-color: #EEEEEE;
+}
+
+#main{
+    width: 1000px;
+    padding: 0;
+    margin:auto;
+    background-color: #EEEEEE;
+}
+
+#head{
+
+    height: 120px;
+    width: 100%;
+    background-color: skyblue;
+    border: 1px solid #CDCDCD;
+
+}
+
+
+#navbar {
+    background-color:blue;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+    width: 100%;
+
+
+}
+#navbar ul{
+    list-style-type: none;
+
+}
+#navbar, #navbar ul, #navbar li{
+    padding:0;
+    margin:0;
+}
+#navbar ul li{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    border-right: 1px solid white;
+    line-height: 40px;
+    text-align: center;
+
+}
+#navbar ul li a{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#navbar ul li:hover{
+    background-color: skyblue;
+}
+#navbar ul li:hover a{
+    color: black;
+}
+#menucon{
+    position: absolute;
+    display: none;
+}
+#navbar ul li:hover #menucon{
+    display: block;
+}
+#noidung{
+    width: 725px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float:left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#right{
+    width: auto;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: white;
+    margin-left:5px;
+
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: burlywood;
+    margin-top: 10px;
+
+}
+body{
+    font-family: Arial;
+}
+#menu, #menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    list-style: none;
+    position: relative;
+    width:220px;
+    height: 30px;
+    padding:0 20px;
+    background-color: white;
+    line-height: 30px;
+    cursor:pointer;
+}
+
+#menu li a{
+    text-decoration:none;
+    color: black;
+    font-family: Arial, Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#menu li:hover{
+    background-color:skyblue;
+    color: white;
+}
+
+
+#menu ul li:hover ul{
+    visibility:visible;
+
+}
+h3{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    font-family: Tahoma;
+
+}
+
+form{
+    text-align: center;
+    float: right;
+    padding: 50px 100px 0 0;
+}
+#truyendc{
+
+    margin: 5px 5px 5px 5px;
+    min-height: 250px;
+    width: 710px;
+    background-color: white;
+
+}
+#truyenmoi{
+    margin: 5px 5px 5px 5px;
+    min-height: 400px;
+    width: 710px;
+    background-color: white;
+
+
+}
+h2{
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: blue;
+    padding: 5px;
+
+
+}
+.tin{
+    height: 180px;
+    width: 226px;
+    margin: 5px;
+    float: left;
+
+}
+.tinnho{
+    height: 150px;
+    width: 167px;
+    margin: 5px;
+    float: left;
+    margin-bottom: 25px;
+
+
+}
+.anhto{
+    width: 210px;
+    height: 170px;
+
+}
+a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.anhnho{
+    height: 140px;
+    width: 155px;
+
+}
+.footer-text{
+    width: 990px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    margin:auto;
+
+}
+.footer-text a{
+    color: white;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: center;
+}
+.xephang{
+    font-size: 17px;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    --border-radius: 10px;
+    margin-right: 5px;
+}
+
+#input{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+}
+
+.anhnen img{
+    padding-top: 10px;
+    width: 140px;
+    height: 315px;
+}
+/* Css cho trang con */
+#GioiThieuTruyen{
+    min-height: 400px;
+    width: 715px;
+    background-color: #ffffff;
+    margin:5px;
+
+}
+#CacChuong{
+    width: 715px;
+    min-height: 300px;
+    background-color:#ffffff;
+    margin: 5px;
+}
+#BinhLuan{
+    width: 715px;
+    min-height: 200px;
+    background-color: #ffffff;
+    margin: 5px;
+}
+.GioiThieu_left{
+    width: 270px;
+    min-height: 400px;
+    float: left;
+    background-color: #ffffff;
+    border-right: 1px #CDCDCD solid;
+
+}
+.Gioithieu_right{
+    width: 435px;
+    min-height: 400px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.thongtin a{
+    color: #0913ff;
+    font-family: Tahoma;
+    font-size: 14px;
+
+
+}
+.thongtin p,label{
+    font-family: Tahoma;
+    font-size: 14px;
+    padding: 10px 10px 5px 20px;
+    display: inline-block;
+
+}
+.Gioithieu_right .tentruyen{
+    color: red;
+    font-size: 30px;
+    font-family: Tahoma;
+    text-align: center;
+    padding-left: 100px;
+    margin-bottom: 50px;
+
+}
+.danhsach{
+    color: #ffffff;
+    background-color: #0913ff;
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+
+
+}
+.danhsach:hover{
+    background-color: skyblue;
+    color: black;
+}
+.noidungtruyen{
+    display: inline-block;
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+#CacChuong li{
+    width: 665px;
+    height: 50px;
+    list-style: none;
+
+
+}
+#CacChuong .ngaycapnhat{
+    display: inline-block;
+    text-align: center;
+}
+#CacChuong h4{
+    width: 600px;
+    display: inline-block;
+}
+#CacChuong h4 a:hover{
+    color: #1332ff;
+}
